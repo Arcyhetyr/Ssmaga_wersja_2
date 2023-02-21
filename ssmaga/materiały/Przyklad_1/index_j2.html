@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!--<script src="Script/jquery.js" type="text/javascript"></script>-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript">
+		$(function() {
+			$.ajax({
+				type:'POST',
+				url:'osoba.json',
+				dataType:'json',
+				success:function(data){
+					//var data = JSON.parse(data);
+					for(var i=0; i<data.osoba.student.length; i++){
+						var tekst = data.osoba.student[i].nr+" <b>"+data.osoba.student[i].imie+"</b> "+data.osoba.student[i].nazwisko+" "+data.osoba.student[i].telefon;
+						$('<p>').html(tekst).appendTo('#strona');
+						//alert(data.osoba.student[i].nr);
+					}
+				}
+			})
+		});
+		</script>
+		<style type="text/css">  
+		body{
+			background-color:black;
+			color:white;
+		}
+		#strona{ 
+			width: 90%;
+			height:180px;
+			padding:10px;
+		} 
+		img	{
+			width:140px;
+			height:140px;
+			margin:10px;
+		}
+		</style> 
+
+	</head>
+	<body>
+		<div id="strona"></div>
+	</body>
+<html>

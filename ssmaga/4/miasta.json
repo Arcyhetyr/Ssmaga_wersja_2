@@ -1,0 +1,9 @@
+{
+    "miasta": [
+      { "nazwa": "Warszawa" },
+      { "nazwa": "Kraków" },
+      { "nazwa": "Łódź" },
+      { "nazwa": "Wrocław" },
+      { "nazwa": "Poznań" }
+    ]
+  }

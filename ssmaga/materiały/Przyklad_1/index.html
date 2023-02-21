@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="Script/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		$(function() {
+			$.ajax({
+				type:"GET",
+				url:"osoba.xml",
+				dataType:"xml",
+				success:function(data){
+					$(data).find('student').each(function(){
+						var nr = $(this).find('nr').text();
+						var imie =$(this).find('imie').text();
+						var nazwisko =$(this).find('nazwisko').text();
+						var punkty =$(this).find('punkty').text();
+						var tekst = nr+" <b>"+imie+"</b> "+nazwisko+" "+punkty;
+						$('<p>').html(tekst).appendTo('#strona')
+					});
+				}
+			})
+		});
+		</script>
+		<style type="text/css">  
+		body{
+			background-color:black;
+			color:white;
+		}
+		#strona{ 
+			width: 90%;
+			height:180px;
+			padding:10px;
+		} 
+		img	{
+			width:140px;
+			height:140px;
+			margin:10px;
+		}
+		</style> 
+
+	</head>
+	<body>
+		<div id="strona"></div>
+	</body>
+<html>

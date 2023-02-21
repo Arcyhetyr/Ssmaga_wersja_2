@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nasze miasto</title>
+    <script src="miasta.json"></script>
+  </head>
+  <body>
+    <h1>Nasze miasto</h1>
+    <p>Nasze miasto w tym miesiącu to <span id="nazwaMiasta"></span>.</p>
+
+    <script>
+      // Wczytanie pliku JSON z miastami
+      var xmlhttp = new XMLHttpRequest();
+      xmlhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
+          var miasta = JSON.parse(this.responseText);
+
+          // Pobranie nazwy miasta z pliku JSON w zależności od miesiąca
+          var nazwaMiasta;
+          var miesiac = new Date().getMonth();
+          switch (miesiac) {
+            case 0:
+              nazwaMiasta = miasta.miasta[0].nazwa;
+              break;
+            case 1:
+              nazwaMiasta = miasta.miasta[1].nazwa;
+              break;
+            case 2:
+              nazwaMiasta = miasta.miasta[2].nazwa;
+              break;
+            default:
+              nazwaMiasta = "Nieznane";
+          }
+
+          // Wstawienie nazwy miasta do dokumentu HTML
+          var elementNazwyMiasta = document.getElementById("nazwaMiasta");
+          elementNazwyMiasta.innerHTML = nazwaMiasta;
+        }
+      };
+      xmlhttp.open("GET", "miasta.json", true);
+      xmlhttp.send();
+    </script>
+  </body>
+</html>

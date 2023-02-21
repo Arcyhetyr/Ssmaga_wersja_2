@@ -1,0 +1,5 @@
+﻿student{display:block;}
+nr{display:inline;}
+imie{display:inline; font-weight:bold;}
+nazwisko{display:inline; font-weight:bold;}
+punkty{display:inline; font-style:italic;}

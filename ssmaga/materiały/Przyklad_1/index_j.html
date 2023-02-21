@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="Script/jquery.js" type="text/javascript"></script>
+		<script type="text/javascript">
+		$(function() {
+			$.getJSON("osoba.json",function(data){
+				
+				for(var i=0; i<data.osoba.student.length; i++){
+					var nr = data.osoba.student[i].nr;
+					var imie = data.osoba.student[i].imie;
+					var nazwisko = data.osoba.student[i].nazwisko;
+					var telefon = data.osoba.student[i].telefon;
+					var tekst = nr+" <b>"+imie+"</b> "+nazwisko+" "+telefon;
+					$('<p>').html(tekst).appendTo('#strona')
+				}			
+			})
+		});
+		</script>
+		<style type="text/css">  
+		body{
+			background-color:black;
+			color:white;
+		}
+		#strona{ 
+			width: 90%;
+			height:180px;
+			padding:10px;
+		} 
+		img	{
+			width:140px;
+			height:140px;
+			margin:10px;
+		}
+		</style> 
+
+	</head>
+	<body>
+		<div id="strona"></div>
+	</body>
+<html>

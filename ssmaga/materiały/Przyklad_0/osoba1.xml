@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="osoba.css"?>
+<osoba>
+   <student>
+      <nr>6671</nr>
+      <imie>Mateusz</imie>
+      <nazwisko>Kurek</nazwisko>
+      <punkty>2</punkty>
+	  <sciezka path="c:\>Kurek\"/>
+   </student>
+   
+   <student>
+      <nr>6670</nr>
+      <imie>Dominik</imie>
+      <nazwisko>Zawada</nazwisko>
+      <punkty>1</punkty>
+   </student>
+
+   <student>
+      <nr>6666</nr>
+      <imie>Jan</imie>
+      <nazwisko>Kowalski</nazwisko>
+      <punkty/>
+   </student>
+
+   <student>
+      <nr>6667</nr>
+      <imie>Anna</imie>
+      <nazwisko>Lechowicz</nazwisko>
+      <punkty>16</punkty>
+   </student>
+
+   <student>
+      <nr>6668</nr>
+      <imie>Paulina</imie>
+      <nazwisko>Picker</nazwisko>
+      <punkty>22</punkty>
+   </student>
+
+   <student>
+      <nr>6669</nr>
+      <imie>Grzegorz</imie>
+      <nazwisko>Malski</nazwisko>
+      <punkty>8</punkty>
+   </student>
+</osoba>

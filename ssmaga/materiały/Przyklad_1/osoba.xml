@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="osoba.xsl"?>
+<osoba>
+   <student>
+      <nr>6666</nr>
+      <imie>Jan</imie>
+      <nazwisko>Kowalski</nazwisko>
+      <punkty/>
+   </student>
+
+   <student>
+      <nr>6667</nr>
+      <imie>Anna</imie>
+      <nazwisko>Lechowicz</nazwisko>
+      <punkty>16</punkty>
+   </student>
+
+</osoba>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="osoba.xsl"?>
+<osoba>
+   <student dane>
+      <nr>6671</nr>
+      <imie>Mateusz</imie>
+      <nazwisko>Kurek</nazwisko>
+	  <punkty>2</punkty>
+	  <osoba></osoba>
+   </student>
+      
+   <student dane="private">
+      <nr>6670</nr>
+      <imie>Dominik</imie>
+      <nazwisko>Zawada</nazwisko>
+      <punkty>
+	  
+   </student>
+
+   <student dane="private">
+      <nr>6666</nr>
+      <imie>Jan</imie>
+      <nazwisko>Kowalski</nazwisko>
+      <punkty/>
+   </student>
+
+   <student dane="private">
+      <nr>6667</nr>
+      <imie>Anna</imie>
+      <nazwisko>Lechowicz</nazwisko>
+      <punkty>16</punkty>
+   </student>
+
+   <student dane="private">
+      <nr>6668</nr>
+      <imie>Paulina</imie>
+      <nazwisko>Picker</nazwisko>
+      <punkty>22</punkty>
+   </student>
+
+   <student dane="public">
+      <nr>6669</nr>
+      <imie>Grzegorz</imie>
+      <nazwisko>Malski</nazwisko>
+      <punkty>8</punkty>
+   </student>
+   <student dane="private">
+	  <nr>7000</nr>
+	  <imie>Grzegorz</imie>
+	  <nazwisko>Gauczynski</nazwisko>
+	  <punkty>11</punkty>
+   </student>
+   <student>
+	  <nr>7001</nr>
+	  <imie>Kunegunda</imie>
+	  <nazwisko>Gumkiewicz</nazwisko>
+	  <punkty>34</punkty>
+   </student>
+   <student dane="public">
+	  <nr>7002</nr>
+	  <imie>Gabrymjela</imie>
+	  <nazwisko>Grzmot</nazwisko>
+	  <punkty>23</punkty>
+   </student>
+   <student>
+      <nr>7003</nr>
+      <imie>Michał</imie>
+      <nazwisko>Żubr</nazwisko>
+      <punkty>50</punkty>
+   </student>
+   <student dane="public">
+      <nr>7004</nr>
+      <imie>Dmytro</imie>
+      <nazwisko>Wysoki</nazwisko>
+      <punkty>30</punkty>
+   </student>
+</osoba>
+
+
+
+
+
+
+
+

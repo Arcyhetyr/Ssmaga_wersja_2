@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #357edd;
+    color: white;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  nav {
+    background-color: #f2f2f2;
+    padding: 0.5em;
+    text-align: center;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0.5em;
+  }
+  
+  section {
+    padding: 1em;
+    text-align: center;
+  }
+  
+  #about {
+    background-color: #f2f2f2;
+  }
+  
+  #services {
+    background-color: #f9f9f9;
+  }
+  
+  #contact {
+    background-color: #f2f2f2;
+  }
+  
+  footer {
+    background-color: #357edd;
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+
+  }
+  #catalog
+  {
+    text-align: center;
+  
+  }
+  table
+  { text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10;
+  }

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--zamiast hamburgera i css skaluje tutaj-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteka</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="miasta.json"></script>
+    <script src="script.js"></script>
+
+</head>
+<body>
+    <header>
+        <h1>WypoXYZ</h1>
+      </header>
+      <nav>
+        <a href="#about">O Bibliotece</a>
+        <a href="#reading-room">Czytelnia</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+      <section id="about">
+        <h2>O Bibliotece</h2>
+        <p>Biblioteka WypoXYZ zajmuje się sprzedażą oraz wypożyczaniem książek</p>
+        <hr>
+        <h3>Nasze miasto</h3>
+      <p>Wrtualna biblioteka w tym miesiącu ma serwer w mieście: <span id="nazwaMiasta"></span>.</p>
+
+      </section>
+   
+        <section id="catalog">
+            <h2>Katalog</h2>
+            <br>
+            <form>
+              <label for="search-box">Szukaj:</label>
+              <input type="text" id="search-box" placeholder="tytuł, autor, rok wydania">
+              <button type="submit">Szukaj</button>
+            </form>
+            <br>
+            <table>
+              <tr>
+                <th>Tytuł</th>
+                <th>Autor</th>
+                <th>Rok wydania</th>
+                <th>Format</th>
+              </tr>
+              <tr>
+                <td>Pan Tadeusz</td>
+                <td>Adam Mickiewicz</td>
+                <td>1834</td>
+                <td><a href="pan-tadeusz.pdf">PDF</a></td>
+              </tr>
+              <tr>
+                <td>Dziady</td>
+                <td>Adam Mickiewicz</td>
+                <td>1822-1832</td>
+                <td><a href="dziady.pdf">PDF</a></td>
+              </tr>
+              <tr>
+                <td>W pustyni i w puszczy</td>
+                <td>Henryk Sienkiewicz</td>
+                <td>1911</td>
+                <td><a href="w-pustyni-i-w-puszczy.pdf">PDF</a></td>
+              </tr>
+            </table>
+          </section>
+          
+          <section id="reading-room">
+            <h2>Czytelnia</h2>
+            <div id="book-viewer">
+              <embed src="book.pdf" type="application/pdf" width="60%" height="300px" />
+
+            </div>
+          </section>
+      </section>
+      <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Telefon: 555-555-555</p>
+        <p>Adres: ul. Przykładowa 1, 00-000 Przykładowo</p>
+      </section>
+      <footer>
+        <p>Copyright © Biblioteka XYZ</p>
+      </footer>
+    
+</body>
+<script src="script.js"></script>
+</html>

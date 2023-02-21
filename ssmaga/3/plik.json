@@ -1,0 +1,85 @@
+{
+    "Events" : [
+     {
+        "Theme"      : "Crimes",
+        "Date"       : {
+        "Start Date" : "01/03/2022",
+        "End Date"   : "07/03/2022"
+                        },
+        "Id number"  : 1
+    },   
+    {
+        "Theme"      : "Action",
+        "Date"       : {
+        "Start Date" : "08/03/2022",
+        "End Date"   : "15/03/2022"
+                        },
+        "Id number"  : 2
+    },
+    {
+        "Theme"      : "Romance",
+        "Date"       : {
+        "Start Date" : "15/03/2022",
+        "End Date"   : "23/03/2022"
+                        },
+        "Id number"  : 3
+    },
+    {
+        "Theme"      : "Rom-Com",
+        "Date"       : {
+        "Start Date" : "15/02/2022",
+        "End Date"   : "23/02/2022"
+                        },
+        "Id number"  : 4
+    },
+    {
+        "Theme"      : "Bro-Mance",
+        "Date"       : {
+        "Start Date" : "20/02/2022",
+        "End Date"   : "27/02/2022"
+                        },
+        "Id number"  : 5
+    },
+    {
+        "Theme"      : "Comedy",
+        "Date"       : {
+        "Start Date" : "15/04/2022",
+        "End Date"   : "23/04/2022"
+                        },
+        "Id number"  : 6
+    },
+    {
+        "Theme"      : "Drama",
+        "Date"       : {
+        "Start Date" : "17/06/2022",
+        "End Date"   : "27/06/2022"
+                        },
+        "Id number"  : 7
+    },
+    {
+        "Theme"      : "Thriller",
+        "Date"       : {
+        "Start Date" : "11/08/2022",
+        "End Date"   : "22/08/2022"
+                        },
+        "Id number"  : 8
+    },
+    {
+        "Theme"      : "Horror",
+        "Date"       : {
+        "Start Date" : "15/09/2022",
+        "End Date"   : "30/09/2022"
+                        },
+        "Id number"  : 9
+    },
+    {
+        "Theme"      : "Dark-Humor",
+        "Date"       : {
+        "Start Date" : "14/12/2022",
+        "End Date"   : "29/12/2022"
+                        },
+        "Id number"  : 10
+    } 
+     
+     ]
+}
